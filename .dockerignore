@@ -1,0 +1,25 @@
+# Node.js
+node_modules
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Development / IDE specific
+.git
+.vscode
+.idea
+*.swp
+*.swo
+
+# Environment files (should be passed at runtime, not built into image)
+.env*
+!.env.example
+
+# Docker
+Dockerfile
+.dockerignore
+
+# Test files (if not needed in production image)
+tests/
+coverage/
+jest.config.js

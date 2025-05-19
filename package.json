@@ -1,0 +1,31 @@
+{
+  "name": "paliquest-backend",
+  "version": "0.1.0",
+  "description": "Backend for PaliQuest: A Gamified Journey into the Pali Language",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "pali",
+    "language-learning",
+    "gamification",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "knex": "^3.1.0",
+    "morgan": "^1.10.0",
+    "pg": "^8.16.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.1.1"
+  }
+}
